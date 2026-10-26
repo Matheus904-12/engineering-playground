@@ -1,0 +1,17 @@
+# Java / Maven / Gradle
+ target/
+ build/
+ .gradle/
+ *.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
